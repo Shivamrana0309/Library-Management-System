@@ -67,7 +67,7 @@ int main(){
                 login_user(file);
                 break;
             case 3:
-                cout<<"Exiting.....\n";
+                cout<<"Exiting...\n";
                 return 0;
             default:
                 cout<<"Invalid option!Try Again \n";
