@@ -3,8 +3,7 @@ using namespace std;
 
 unordered_map<string,string> load_users(const string& filename ){
     unordered_map<string,string> users;
-    ifstream fin(filename
-    );
+    ifstream fin(filename);
     string buffer,buffer1,usr,pass;
     while(fin >> buffer >> usr >> buffer1 >> pass){
         users[usr]=pass;
